@@ -1,6 +1,4 @@
-package com.as.java.design.mode.factory.none;
-
-import lombok.ToString;
+package com.as.java.util.dota;
 
 import java.util.Arrays;
 

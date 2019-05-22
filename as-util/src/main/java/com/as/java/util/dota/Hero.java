@@ -1,4 +1,4 @@
-package com.as.java.design.mode.factory.none;
+package com.as.java.util.dota;
 
 import lombok.Getter;
 import lombok.ToString;
