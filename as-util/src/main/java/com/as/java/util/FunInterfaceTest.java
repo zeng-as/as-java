@@ -2,7 +2,6 @@ package com.as.java.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.joda.time.LocalDateTime;
 
 import java.util.Date;
 import java.util.concurrent.CompletableFuture;

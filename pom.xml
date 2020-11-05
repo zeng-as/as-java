@@ -14,6 +14,8 @@
         <module>as-util</module>
         <module>as-web</module>
         <module>design-mode</module>
+        <module>as-tomcat</module>
+        <module>as-log</module>
     </modules>
 
     <parent>
@@ -27,11 +29,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-            <version>2.9.9</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
