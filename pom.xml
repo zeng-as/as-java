@@ -16,6 +16,8 @@
         <module>design-mode</module>
         <module>as-tomcat</module>
         <module>as-log</module>
+        <module>as-io</module>
+        <module>as-base</module>
     </modules>
 
     <parent>

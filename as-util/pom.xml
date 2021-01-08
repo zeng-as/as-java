@@ -27,6 +27,11 @@
             <artifactId>ehcache-core</artifactId>
             <version>2.4.5</version>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.70</version>
+        </dependency>
     </dependencies>
 
     <build>

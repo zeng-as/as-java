@@ -21,6 +21,13 @@ public class StringUtils {
         System.out.println(a);
         System.out.println(a.toPlainString());
         System.out.println(a.toString());
-        System.out.println(a.);
+        List<String> l = new ArrayList<>();
+        l.add("a");
+        l.add("b");
+        l.add("c");
+
+        for (String s : l) {
+            System.out.println(s);
+        }
     }
 }
