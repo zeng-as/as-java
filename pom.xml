@@ -19,6 +19,7 @@
         <module>as-io</module>
         <module>as-base</module>
         <module>as-encryption</module>
+        <module>java-concurrent</module>
     </modules>
 
     <parent>

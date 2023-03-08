@@ -23,13 +23,15 @@ import java.util.Optional;
 @EnableScheduling
 public class IndexController {
 
-    @Scheduled(initialDelay = 500, fixedRate = 10000)
+//    @Scheduled(initialDelay = 500, fixedRate = 10000)
     public void refreshGgUserCache() {
         System.out.println("10秒一次");
     }
 
     @GetMapping("toIndex")
     public String toIndex() {
+        System.out.println("???");
+        System.out.println(IndexController.class.getClassLoader());
         return "index";
     }
 
